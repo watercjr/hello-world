@@ -1,5 +1,5 @@
 # hello-world
-It just a test pepository.
+It just a test repository.
 
 
 I am Chen Junren. 
