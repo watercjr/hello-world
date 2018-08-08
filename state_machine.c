@@ -46,7 +46,7 @@ void change_to_pause(unsigned char * user_data)
 	printf("CD is pause\n");
 }
 
-//结构体数组，存储
+//结构体数组，存储状态机状态、事件、函数指针
 STATE_MACHINE state_machine[] = {
 	{RUNNING, PRESS_RUNNING, NULL},
 	{RUNNING, PRESS_PAUSE, change_to_pause},
